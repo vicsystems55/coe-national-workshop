@@ -39,7 +39,7 @@
             <div class="fxt-heading-content">
                 <div class="fxt-inner-wrap fxt-transformX-R-50 fxt-transition-delay-3">
                     <div class="fxt-transformX-R-50 fxt-transition-delay-10">
-                        <a href="login-33.html" class="fxt-logo"></a>
+                        <a href="/" class="fxt-logo"><img style="height: 100px;" src="img/logo-33.png" alt="Logo"></a>
                     </div>
                     <div class="fxt-transformX-R-50 fxt-transition-delay-10">
                         <div class="fxt-middle-content">
@@ -83,18 +83,21 @@
                                 <input type="text" id="middlename" class="form-control" name="middlename" placeholder="Enter your middlename" required="required">
                             </div>
 
-                            <div class="form-check">
+                           <div class="col-lg-6">
+                            <label for="middlename" class="fxt-label">Gender</label>
+                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="gender" value="male" id="exampleRadios1" value="option1" checked>
                                 <label class="form-check-label" for="exampleRadios1">
                                   Male
                                 </label>
                               </div>
-                              <div class="form-check" col-lg-6>
+                              <div class="form-check" >
                                 <input class="form-check-input" type="radio" name="gender" value="female" id="exampleRadios2" value="option2">
                                 <label class="form-check-label" for="exampleRadios2">
                                   Female
                                 </label>
                               </div>
+                           </div>
                               <div class="form-group col-lg-6">
                                 <label for="phone" class="fxt-label">Phone</label>
                                 <input type="text" id="phone" class="form-control" name="phone" placeholder="080 *** ****" required="required">
