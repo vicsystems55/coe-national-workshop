@@ -40,11 +40,17 @@
                 <div class="fxt-inner-wrap fxt-transformX-R-50 fxt-transition-delay-3">
                     <div class="fxt-transformX-R-50 fxt-transition-delay-10">
                         <a href="/" class="fxt-logo"><img style="height: 100px;" src="img/logo-33.png" alt="Logo"></a>
+                        <div style="font-size: 10pt;" class="fxt-sub-title ">THE COMMITTEE OF BURSARS</div>
+
                     </div>
                     <div class="fxt-transformX-R-50 fxt-transition-delay-10">
                         <div class="fxt-middle-content">
-                            <div class="fxt-sub-title py-5">An integrated Executive Workshop Series</div>
-                            <h3 class="fxt-sub-title">NATIONAL WORKSHOP FOR COMMITTEE OF FEDERAL BURSARS' IN COLLABORATION WITH ALL STATES AND PRIVATE
+                            <div style="font-size: 12pt;" class="fxt-sub-title ">An integrated Executive Workshop Series</div>
+                            <div style="font-size: 12pt;" class="fxt-sub-title ">Date:  9-12 October, 2023</div>
+
+                            <div style="font-size: 12pt;" class="fxt-sub-title ">Venue: The Auditorium, National Commission for Colleges of Education, Central Business District, FCT-Abuja</div>
+
+                            <h3 style="font-weight: bold;" class="fxt-sub-title pt-2 text-danger font-weight-bold">NATIONAL WORKSHOP FOR COMMITTEE OF FEDERAL BURSARS' IN COLLABORATION WITH ALL STATES AND PRIVATE
                                 OWNED COLLEGES OF EDUCATION IN NIGERIA
                             </h3>
                             <p class="fxt-description">Reducing Cost and Delivering Result</p>
@@ -58,8 +64,8 @@
             <div class="fxt-form-content">
                 <div class="fxt-main-form">
                     <div class="fxt-inner-wrap fxt-opacity fxt-transition-delay-13">
-                        <h2 class="fxt-page-title">Sign Up for the event</h2>
-                        <p class="fxt-description">Sign Up to try our amazing services</p>
+                        <h2 class="fxt-page-title text-success">Sign Up for the event</h2>
+                        <p class="fxt-description"></p>
 
                         @if(Session::has('msg'))
                         <p class="alert alert-info">{{ Session::get('msg') }}</p>
@@ -136,29 +142,8 @@
                                 <button type="submit" class="fxt-btn-fill">Register</button>
                             </div>
                         </form>
-                        {{-- <div class="fxt-divider-text">OR</div>
-                        <div id="fxt-login-option" class="fxt-login-option">
-                            <ul>
-                                <li class="fxt-google active">
-                                    <a href="#">
-                                        <span class="fxt-option-icon"><i class="fab fa-google"></i></span>
-                                        <span class="fxt-option-text ml-2">Continue with Google</span>
-                                    </a>
-                                </li>
-                                <li class="fxt-facebook">
-                                    <a href="#">
-                                        <span class="fxt-option-icon"><i class="fab fa-facebook-f"></i></span>
-                                        <span class="fxt-option-text ml-2">Continue with Facebook</span>
-                                    </a>
-                                </li>
-                                <li class="fxt-apple">
-                                    <a href="#">
-                                        <span class="fxt-option-icon"><i class="fab fa-apple"></i></span>
-                                        <span class="fxt-option-text ml-2">Continue with Apple</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div> --}}
+                        <div class="fxt-divider-text">(c) The Committee of Bursars', Colleges of Education in Nigeria, 2023</div>
+
                     </div>
                 </div>
             </div>

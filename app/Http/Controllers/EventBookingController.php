@@ -43,7 +43,7 @@ class EventBookingController extends Controller
         try {
             //code...
 
-            Mail::to('oswald@coenationalworkshop.com.ng')->send(new BookingSuccessfulMail($data));
+            Mail::to('diconconsult@gmail.com')->send(new BookingSuccessfulMail($data));
 
             Mail::to($booking->email)->send(new BookingSuccessfulMail($data));
         } catch (\Throwable $th) {
