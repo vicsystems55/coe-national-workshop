@@ -61,8 +61,13 @@
                         <h2 class="fxt-page-title">Sign Up for the event</h2>
                         <p class="fxt-description">Sign Up to try our amazing services</p>
 
+                        @if(Session::has('msg'))
+                        <p class="alert alert-info">{{ Session::get('msg') }}</p>
+                        @endif
 
-                        <form method="POST" class="row">
+
+                        <form action="/register" method="POST" class="row">
+                            {{ csrf_field() }}
                             <div class="form-group col-lg-6">
                                 <label for="surname" class="fxt-label">Surname</label>
                                 <input type="text" id="surname" class="form-control" name="surname" placeholder="Enter your surname" required="required">
@@ -78,18 +83,14 @@
                                 <input type="text" id="middlename" class="form-control" name="middlename" placeholder="Enter your middlename" required="required">
                             </div>
 
-                            <div class="form-group col-lg-6">
-                                <label for="middlename" class="fxt-label">Middle Name</label>
-                                <input type="text" id="middlename" class="form-control" name="middlename" placeholder="Enter your middlename" required="required">
-                            </div>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                <input class="form-check-input" type="radio" name="gender" value="male" id="exampleRadios1" value="option1" checked>
                                 <label class="form-check-label" for="exampleRadios1">
                                   Male
                                 </label>
                               </div>
                               <div class="form-check" col-lg-6>
-                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                <input class="form-check-input" type="radio" name="gender" value="female" id="exampleRadios2" value="option2">
                                 <label class="form-check-label" for="exampleRadios2">
                                   Female
                                 </label>
@@ -106,7 +107,7 @@
 
                             <div class="form-group col-lg-12">
                                 <label for="institutionname" class="fxt-label">Name of Institution</label>
-                                <input type="text" id="institutionname" class="form-control" name="email" placeholder="Enter your institution name" required="required">
+                                <input type="text" id="institutionname" class="form-control" name="institutionname" placeholder="Enter your institution name" required="required">
                             </div>
 
                             <div class="form-group col-lg-12">
