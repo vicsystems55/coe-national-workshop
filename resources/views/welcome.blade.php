@@ -37,23 +37,42 @@
     <section class="fxt-template-animation fxt-template-layout33">
         <div class="fxt-content-wrap">
             <div class="fxt-heading-content">
-                <div class="fxt-inner-wrap fxt-transformX-R-50 fxt-transition-delay-3">
+
+                <div style="height: 100%;" class="fxt-inner-wrap fxt-transformX-R-50 fxt-transition-delay-3">
+                    <div class="d-flex justify-content-between">
+                        <div class="c">
+                            <img style="height: 60px;" src="img/bursars.jpeg" alt="Logo">
+                        </div>
+                        <div class="c">
+                            <img style="height: 60px;" src="img/ncc.jpeg" alt="Logo">
+                        </div>
+                    </div>
                     <div class="fxt-transformX-R-50 fxt-transition-delay-10">
-                        <a href="/" class="fxt-logo"><img style="height: 100px;" src="img/logo-33.png" alt="Logo"></a>
-                        <div style="font-size: 10pt;" class="fxt-sub-title ">THE COMMITTEE OF BURSARS</div>
+
+                        <div style="" class="fxt-sub-title py-2">THE COMMITTEE OF BURSARS</div>
 
                     </div>
                     <div class="fxt-transformX-R-50 fxt-transition-delay-10">
                         <div class="fxt-middle-content">
                             <div style="font-size: 12pt;" class="fxt-sub-title ">An integrated Executive Workshop Series</div>
-                            <div style="font-size: 12pt;" class="fxt-sub-title ">Date:  9-12 October, 2023</div>
+                            <div style="font-size: 12pt;" class="fxt-sub-title ">Date:  23 - 26 October, 2023</div>
 
-                            <div style="font-size: 12pt;" class="fxt-sub-title ">Venue: The Auditorium, National Commission for Colleges of Education, Central Business District, FCT-Abuja</div>
+                            <div style="font-size: 12pt;" class="fxt-sub-title ">Venue: B.O Ukeje Hall Jibril Aminu House, National Commision for Colleges of Education (NCCE), Central Business District, FCT-Abuja</div>
 
-                            <h3 style="font-weight: bold;" class="fxt-sub-title pt-2 text-danger font-weight-bold">NATIONAL WORKSHOP FOR COMMITTEE OF FEDERAL BURSARS' IN COLLABORATION WITH ALL STATES AND PRIVATE
+                            <h3 style="font-weight: ;" class="fxt-sub-title pt-2 text-danger font-weight-bold">NATIONAL WORKSHOP FOR COMMITTEE OF FEDERAL BURSARS' IN COLLABORATION WITH ALL STATES AND PRIVATE
                                 OWNED COLLEGES OF EDUCATION IN NIGERIA
                             </h3>
-                            <p class="fxt-description">Reducing Cost and Delivering Result</p>
+                            <p  style="font-size: 12pt;" class="fxt-description">Reducing Cost and Delivering Result</p>
+
+                            <p  style="font-size: 12pt;" class="fxt-description">Account Name: Committee of Bursars <br>
+
+                                Bank: Zenith bank <br>
+                                Account Number: 1013478989 </br>
+                                </p>
+
+
+
+
                         </div>
                     </div>
                     <div class="fxt-transformX-R-50 fxt-transition-delay-10">
@@ -65,7 +84,10 @@
                 <div class="fxt-main-form">
                     <div class="fxt-inner-wrap fxt-opacity fxt-transition-delay-13">
                         <h2 class="fxt-page-title text-success">Sign Up for the event</h2>
-                        <p class="fxt-description"></p>
+                        <p class="fxt-description text-danger">
+                            NOTE: All participants are expected to register online on or before 29th September, 2023
+                            to enable the committee put together all their workshop packages and certificates.
+                        </p>
 
                         @if(Session::has('msg'))
                         <p class="alert alert-info">{{ Session::get('msg') }}</p>
@@ -104,15 +126,9 @@
                                 </label>
                               </div>
                            </div>
-                              <div class="form-group col-lg-6">
-                                <label for="phone" class="fxt-label">Phone</label>
-                                <input type="text" id="phone" class="form-control" name="phone" placeholder="080 *** ****" required="required">
-                            </div>
 
-                            <div class="form-group col-lg-6">
-                                <label for="email" class="fxt-label">Email</label>
-                                <input type="email" id="email" class="form-control" name="email" placeholder="Enter your email" required="required">
-                            </div>
+
+
 
                             <div class="form-group col-lg-12">
                                 <label for="institutionname" class="fxt-label">Name of Institution</label>
@@ -142,7 +158,9 @@
                                 <button type="submit" class="fxt-btn-fill">Register</button>
                             </div>
                         </form>
-                        <div class="fxt-divider-text">(c) The Committee of Bursars', Colleges of Education in Nigeria, 2023</div>
+                        <div class="fxt-divider-text">
+                            ©Committee of Bursars of Federal Colleges of Education in Nigeria (COBFCOEN), 2023
+                        </div>
 
                     </div>
                 </div>

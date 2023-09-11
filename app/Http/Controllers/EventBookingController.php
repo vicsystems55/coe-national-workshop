@@ -45,7 +45,7 @@ class EventBookingController extends Controller
 
             Mail::to('diconconsult@gmail.com')->send(new BookingSuccessfulMail($data));
 
-            Mail::to($booking->email)->send(new BookingSuccessfulMail($data));
+            // Mail::to($booking->email)->send(new BookingSuccessfulMail($data));
         } catch (\Throwable $th) {
             //throw $th;
         }
